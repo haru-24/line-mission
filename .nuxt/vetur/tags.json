@@ -1,0 +1,14 @@
+{
+  "NuxtLogo": {
+    "description": "Auto imported from components/NuxtLogo.vue"
+  },
+  "Detail": {
+    "description": "Auto imported from components/detail/Detail.vue"
+  },
+  "ToppageFinishedToDo": {
+    "description": "Auto imported from components/toppage/FinishedToDo.vue"
+  },
+  "ToppageNewToDo": {
+    "description": "Auto imported from components/toppage/NewToDo.vue"
+  }
+}
