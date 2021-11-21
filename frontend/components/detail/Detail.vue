@@ -2,8 +2,9 @@
   <div>
     <div class="boder-1s text-center w-full title-conteiner">
       <p class="inline content-center">ToDoTitle</p>
-      <nuxt-Link tag="div" to="/" class="delete-btn inline">✖️</nuxt-Link>
+      <nuxt-Link tag="div" to="/" class="delete-btn">✖️</nuxt-Link>
     </div>
+
     <div class="boder-1s w-full">
       <div class="descripion-conteiner">
         <div>
@@ -26,8 +27,8 @@
 }
 
 .title-conteiner {
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
 .boder-1s {
   border: 1px solid;
@@ -60,10 +61,14 @@ textarea {
 }
 
 .delete-btn {
+  height: 30px;
+  width: 30px;
   background: #b1b8b9;
   border-radius: 50%;
-  position: relative;
-  left: 130px;
+  position: fixed;
+  right: 20px;
+  top: 14px;
+  display: inline-block;
   font-size: 22px;
 }
 
