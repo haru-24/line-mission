@@ -1,0 +1,16 @@
+[
+  {
+    "name": "detail",
+    "path": "/detail",
+    "component": "/Users/nishiuraharu/Desktop/line-mission/frontend/pages/detail.vue",
+    "chunkName": "pages/detail",
+    "_name": "_58096520"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/nishiuraharu/Desktop/line-mission/frontend/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_90cbdafa"
+  }
+]
