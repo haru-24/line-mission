@@ -1,6 +1,9 @@
 <template>
   <div>
-    <div class="boder-1s text-center w-full seved-conteiner">
+    <div
+      @click="$emit('clickSaveBtn')"
+      class="boder-1s text-center w-full seved-conteiner"
+    >
       <p>Save</p>
     </div>
   </div>

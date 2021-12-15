@@ -2,7 +2,7 @@
   <div>
     <nuxt-Link
       tag="div"
-      to="/"
+      to="/detail"
       class="boder-1s text-center mt-40 newToDo-conteiner"
     >
       <p>+ New ToDo</p>
