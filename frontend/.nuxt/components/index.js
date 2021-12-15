@@ -1,7 +1,10 @@
-export { default as NuxtLogo } from '../../components/NuxtLogo.vue'
 export { default as Detail } from '../../components/detail/Detail.vue'
 export { default as ToppageFinishedToDo } from '../../components/toppage/FinishedToDo.vue'
 export { default as ToppageNewToDo } from '../../components/toppage/NewToDo.vue'
+export { default as DetailAtomsBackBtn } from '../../components/detail/atoms/BackBtn.vue'
+export { default as DetailAtomsSaveBtn } from '../../components/detail/atoms/SaveBtn.vue'
+export { default as ToppageAtomsFinishToDoBtn } from '../../components/toppage/atoms/FinishToDoBtn.vue'
+export { default as ToppageAtomsNewTodoBtn } from '../../components/toppage/atoms/NewTodoBtn.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

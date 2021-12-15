@@ -2,7 +2,7 @@
   <div>
     <div class="boder-1s text-center w-full title-conteiner">
       <p class="inline content-center">ToDoTitle</p>
-      <nuxt-Link tag="div" to="/" class="delete-btn">✖️</nuxt-Link>
+      <BackBtn />
     </div>
 
     <div class="boder-1s w-full">
@@ -14,12 +14,22 @@
       </div>
     </div>
     <div>
-      <div class="boder-1s text-center w-full seved-conteiner">
-        <p>Save</p>
-      </div>
+      <SaveBtn />
     </div>
   </div>
 </template>
+
+<script lang="ts">
+import { defineComponent } from "@nuxtjs/composition-api";
+import SaveBtn from "./atoms/SaveBtn.vue";
+import BackBtn from "./atoms/BackBtn.vue";
+export default defineComponent({
+  components: {
+    SaveBtn,
+    BackBtn,
+  },
+});
+</script>
 
 <style scoped>
 .inline {
@@ -58,32 +68,6 @@ textarea {
   width: 300px;
   height: 150px;
   resize: none;
-}
-
-.delete-btn {
-  height: 30px;
-  width: 30px;
-  background: #b1b8b9;
-  border-radius: 50%;
-  position: fixed;
-  right: 20px;
-  top: 14px;
-  display: inline-block;
-  font-size: 22px;
-}
-
-.seved-conteiner {
-  background-color: rgb(157, 185, 238);
-  box-shadow: 3px 3px 5px -3px darkgrey;
-  width: 100%;
-  margin-top: 10px;
-  font-family: Arial, Helvetica, sans-serif;
-  border-radius: 10px;
-  transition: 0.3s;
-}
-.seved-conteiner:active {
-  box-shadow: none;
-  transform: translate3d(0, 5px, 0);
 }
 
 .content-center {
